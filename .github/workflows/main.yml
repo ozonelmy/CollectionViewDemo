@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run XCodeBuild
-      run: xcodebuild -scheme CollectionViewDemo -configuration Debug -sdk iphonesimulator13.2
+      run: xcodebuild -showsdks
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
