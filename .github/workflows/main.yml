@@ -10,8 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run XCodeBuild
-#      run: xcodebuild -showsdks
-        run: oclint --version
+      run: oclint --version
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
